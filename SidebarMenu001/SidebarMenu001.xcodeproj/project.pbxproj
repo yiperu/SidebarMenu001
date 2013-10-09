@@ -22,6 +22,7 @@
 		CBEEBB081805DC410045568A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CBEEBB061805DC410045568A /* InfoPlist.strings */; };
 		CBEEBB0A1805DC410045568A /* SidebarMenu001Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBEEBB091805DC410045568A /* SidebarMenu001Tests.m */; };
 		CBEEBB151805DFEB0045568A /* nav_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = CBEEBB141805DFEB0045568A /* nav_bg.png */; };
+		CBEEBB181805E41F0045568A /* SideBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBEEBB171805E41F0045568A /* SideBarViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		CBEEBB071805DC410045568A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CBEEBB091805DC410045568A /* SidebarMenu001Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SidebarMenu001Tests.m; sourceTree = "<group>"; };
 		CBEEBB141805DFEB0045568A /* nav_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_bg.png; sourceTree = "<group>"; };
+		CBEEBB161805E41F0045568A /* SideBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SideBarViewController.h; path = ../SideBarViewController.h; sourceTree = "<group>"; };
+		CBEEBB171805E41F0045568A /* SideBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SideBarViewController.m; path = ../SideBarViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				CBEEBAF01805DC410045568A /* Main.storyboard */,
 				CBEEBAF31805DC410045568A /* ViewController.h */,
 				CBEEBAF41805DC410045568A /* ViewController.m */,
+				CBEEBB161805E41F0045568A /* SideBarViewController.h */,
+				CBEEBB171805E41F0045568A /* SideBarViewController.m */,
 				CBEEBAF61805DC410045568A /* Images.xcassets */,
 				CBEEBAE51805DC410045568A /* Supporting Files */,
 			);
@@ -264,6 +269,7 @@
 				CBEEBAF51805DC410045568A /* ViewController.m in Sources */,
 				CBEEBAEF1805DC410045568A /* AppDelegate.m in Sources */,
 				CBEEBAEB1805DC410045568A /* main.m in Sources */,
+				CBEEBB181805E41F0045568A /* SideBarViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
