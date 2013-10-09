@@ -21,6 +21,7 @@
 		CBEEBB001805DC410045568A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBEEBAE21805DC410045568A /* UIKit.framework */; };
 		CBEEBB081805DC410045568A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CBEEBB061805DC410045568A /* InfoPlist.strings */; };
 		CBEEBB0A1805DC410045568A /* SidebarMenu001Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBEEBB091805DC410045568A /* SidebarMenu001Tests.m */; };
+		CBEEBB151805DFEB0045568A /* nav_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = CBEEBB141805DFEB0045568A /* nav_bg.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		CBEEBB051805DC410045568A /* SidebarMenu001Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SidebarMenu001Tests-Info.plist"; sourceTree = "<group>"; };
 		CBEEBB071805DC410045568A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CBEEBB091805DC410045568A /* SidebarMenu001Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SidebarMenu001Tests.m; sourceTree = "<group>"; };
+		CBEEBB141805DFEB0045568A /* nav_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_bg.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 		CBEEBAE51805DC410045568A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CBEEBB131805DFC80045568A /* Imagenes */,
 				CBEEBAE61805DC410045568A /* SidebarMenu001-Info.plist */,
 				CBEEBAE71805DC410045568A /* InfoPlist.strings */,
 				CBEEBAEA1805DC410045568A /* main.m */,
@@ -150,6 +153,14 @@
 				CBEEBB061805DC410045568A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CBEEBB131805DFC80045568A /* Imagenes */ = {
+			isa = PBXGroup;
+			children = (
+				CBEEBB141805DFEB0045568A /* nav_bg.png */,
+			);
+			name = Imagenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +241,7 @@
 			files = (
 				CBEEBAF71805DC410045568A /* Images.xcassets in Resources */,
 				CBEEBAE91805DC410045568A /* InfoPlist.strings in Resources */,
+				CBEEBB151805DFEB0045568A /* nav_bg.png in Resources */,
 				CBEEBAF21805DC410045568A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
