@@ -22,6 +22,7 @@
 		CB0447761806411B00FDB363 /* tag.png in Resources */ = {isa = PBXBuildFile; fileRef = CB04476D1806411B00FDB363 /* tag.png */; };
 		CB0447771806411B00FDB363 /* wishlist_photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB04476E1806411B00FDB363 /* wishlist_photo.jpg */; };
 		CB0447781806411B00FDB363 /* wishlist.png in Resources */ = {isa = PBXBuildFile; fileRef = CB04476F1806411B00FDB363 /* wishlist.png */; };
+		CB04477B1806420E00FDB363 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB04477A1806420E00FDB363 /* SWRevealViewController.m */; };
 		CBB295EE18061FB0009A3ED0 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB295ED18061FB0009A3ED0 /* MapViewController.m */; };
 		CBB295F118062C41009A3ED0 /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB295F018062C41009A3ED0 /* PhotoViewController.m */; };
 		CBEEBADF1805DC410045568A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBEEBADE1805DC410045568A /* Foundation.framework */; };
@@ -68,6 +69,8 @@
 		CB04476D1806411B00FDB363 /* tag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tag.png; sourceTree = "<group>"; };
 		CB04476E1806411B00FDB363 /* wishlist_photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wishlist_photo.jpg; sourceTree = "<group>"; };
 		CB04476F1806411B00FDB363 /* wishlist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wishlist.png; sourceTree = "<group>"; };
+		CB0447791806420E00FDB363 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		CB04477A1806420E00FDB363 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		CBB295EC18061FB0009A3ED0 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		CBB295ED18061FB0009A3ED0 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		CBB295EF18062C41009A3ED0 /* PhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewController.h; sourceTree = "<group>"; };
@@ -164,6 +167,8 @@
 				CBB295ED18061FB0009A3ED0 /* MapViewController.m */,
 				CBB295EF18062C41009A3ED0 /* PhotoViewController.h */,
 				CBB295F018062C41009A3ED0 /* PhotoViewController.m */,
+				CB0447791806420E00FDB363 /* SWRevealViewController.h */,
+				CB04477A1806420E00FDB363 /* SWRevealViewController.m */,
 				CBEEBAF61805DC410045568A /* Images.xcassets */,
 				CBEEBAE51805DC410045568A /* Supporting Files */,
 			);
@@ -336,6 +341,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB04477B1806420E00FDB363 /* SWRevealViewController.m in Sources */,
 				CBEEBAF51805DC410045568A /* ViewController.m in Sources */,
 				CBEEBAEF1805DC410045568A /* AppDelegate.m in Sources */,
 				CBB295EE18061FB0009A3ED0 /* MapViewController.m in Sources */,
