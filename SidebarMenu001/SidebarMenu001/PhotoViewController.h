@@ -12,4 +12,10 @@
 
 @property (strong, nonatomic) IBOutlet UIBarButtonItem *sidebarButton;
 
+@property (strong, nonatomic) IBOutlet UIImageView *photoImageView;
+
+
+@property (strong, nonatomic) NSString *photoFilename;
+
+
 @end

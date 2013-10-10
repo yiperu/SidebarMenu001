@@ -29,6 +29,11 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     
+    // Load image
+    self.photoImageView.image = [UIImage imageNamed:self.photoFilename];
+    
+    
+    
     // Change button color
     self.sidebarButton.tintColor = [UIColor colorWithWhite:0.96f alpha:0.2f];
     
