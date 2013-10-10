@@ -30,7 +30,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C4O-Tl-Wu2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="472" y="-814"/>
+            <point key="canvasLocation" x="440" y="-978"/>
         </scene>
         <!--Map View Controller-->
         <scene sceneID="4V0-LM-VLK">
@@ -99,7 +99,7 @@
                     </view>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="668" y="-1603"/>
+            <point key="canvasLocation" x="872" y="-1635"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
@@ -129,7 +129,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="916" y="-66"/>
+            <point key="canvasLocation" x="900" y="-258"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="sT2-5g-b8f">
@@ -147,7 +147,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hW1-r6-xRz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="461" y="-59"/>
+            <point key="canvasLocation" x="445" y="-239"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="AhG-Jm-GOi">
@@ -165,7 +165,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sVu-3P-Lf2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-119" y="-85"/>
+            <point key="canvasLocation" x="-123" y="-829"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

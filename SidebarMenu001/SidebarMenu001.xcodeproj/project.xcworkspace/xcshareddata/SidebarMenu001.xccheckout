@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>491B4ABF-B440-46C8-B5AC-8EBED255BB57</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SidebarMenu001</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C376D2BA-7197-42F6-8A9F-72BE910B6072</key>
+		<string>ssh://github.com/yiperu/SidebarMenu001.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SidebarMenu001/SidebarMenu001.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C376D2BA-7197-42F6-8A9F-72BE910B6072</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/yiperu/SidebarMenu001.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C376D2BA-7197-42F6-8A9F-72BE910B6072</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C376D2BA-7197-42F6-8A9F-72BE910B6072</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SidebarMenu001</string>
+		</dict>
+	</array>
+</dict>
+</plist>
