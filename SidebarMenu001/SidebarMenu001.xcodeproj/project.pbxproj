@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CBB295EE18061FB0009A3ED0 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB295ED18061FB0009A3ED0 /* MapViewController.m */; };
+		CBB295F118062C41009A3ED0 /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB295F018062C41009A3ED0 /* PhotoViewController.m */; };
 		CBEEBADF1805DC410045568A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBEEBADE1805DC410045568A /* Foundation.framework */; };
 		CBEEBAE11805DC410045568A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBEEBAE01805DC410045568A /* CoreGraphics.framework */; };
 		CBEEBAE31805DC410045568A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBEEBAE21805DC410045568A /* UIKit.framework */; };
@@ -36,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CBB295EC18061FB0009A3ED0 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		CBB295ED18061FB0009A3ED0 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		CBB295EF18062C41009A3ED0 /* PhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewController.h; sourceTree = "<group>"; };
+		CBB295F018062C41009A3ED0 /* PhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoViewController.m; sourceTree = "<group>"; };
 		CBEEBADB1805DC410045568A /* SidebarMenu001.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SidebarMenu001.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBEEBADE1805DC410045568A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CBEEBAE01805DC410045568A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -124,6 +130,10 @@
 				CBEEBAF41805DC410045568A /* ViewController.m */,
 				CBEEBB161805E41F0045568A /* SideBarViewController.h */,
 				CBEEBB171805E41F0045568A /* SideBarViewController.m */,
+				CBB295EC18061FB0009A3ED0 /* MapViewController.h */,
+				CBB295ED18061FB0009A3ED0 /* MapViewController.m */,
+				CBB295EF18062C41009A3ED0 /* PhotoViewController.h */,
+				CBB295F018062C41009A3ED0 /* PhotoViewController.m */,
 				CBEEBAF61805DC410045568A /* Images.xcassets */,
 				CBEEBAE51805DC410045568A /* Supporting Files */,
 			);
@@ -268,6 +278,8 @@
 			files = (
 				CBEEBAF51805DC410045568A /* ViewController.m in Sources */,
 				CBEEBAEF1805DC410045568A /* AppDelegate.m in Sources */,
+				CBB295EE18061FB0009A3ED0 /* MapViewController.m in Sources */,
+				CBB295F118062C41009A3ED0 /* PhotoViewController.m in Sources */,
 				CBEEBAEB1805DC410045568A /* main.m in Sources */,
 				CBEEBB181805E41F0045568A /* SideBarViewController.m in Sources */,
 			);
@@ -478,6 +490,7 @@
 				CBEEBB0F1805DC410045568A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CBEEBB101805DC410045568A /* Build configuration list for PBXNativeTarget "SidebarMenu001Tests" */ = {
 			isa = XCConfigurationList;
@@ -486,6 +499,7 @@
 				CBEEBB121805DC410045568A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
