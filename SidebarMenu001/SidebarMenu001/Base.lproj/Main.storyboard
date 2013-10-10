@@ -126,6 +126,9 @@
                     <navigationItem key="navigationItem" id="m6A-XY-2N0">
                         <barButtonItem key="leftBarButtonItem" title="Item" id="QIZ-Y4-EBR"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="sidebarButton" destination="QIZ-Y4-EBR" id="WqD-mu-aby"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
@@ -162,6 +165,10 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <segue destination="FIw-Dm-vi0" kind="custom" identifier="sw_rear" customClass="SWRevealViewControllerSegue" id="Zg3-bN-XUQ"/>
+                        <segue destination="lS3-Ql-YqY" kind="custom" identifier="sw_front" customClass="SWRevealViewControllerSegue" id="ymi-mu-FcX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sVu-3P-Lf2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
