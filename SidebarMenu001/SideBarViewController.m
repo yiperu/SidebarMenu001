@@ -8,11 +8,16 @@
 
 #import "SideBarViewController.h"
 
+#import "SWRevealViewController.h"
+#import "PhotoViewController.h"
+
+
 @interface SideBarViewController ()
 
 @end
 
 @implementation SideBarViewController
+@synthesize menuItems;
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -32,6 +37,12 @@
  
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    self.view.backgroundColor = [UIColor colorWithWhite:0.2f alpha:1.0f];
+    self.tableView.backgroundColor = [UIColor colorWithWhite:0.2f alpha:1.0f];
+    self.tableView.separatorColor = [UIColor colorWithWhite:0.15f alpha:0.2f];
+    
+    self.menuItems = @[@"title", @"news", @"comments", @"map", @"calendar", @"wishlist", @"bookmark", @"tag"];
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -53,15 +64,18 @@
 {
 
     // Return the number of rows in the section.
-    return 0;
+    return [self.menuItems count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *CellIdentifier = @"Cell";
+    //static NSString *CellIdentifier = [self.menuItems objectAtIndex:indexPath.row];
+    NSString *CellIdentifier = [self.menuItems objectAtIndex:indexPath.row];
+    
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
     // Configure the cell...
+    
     
     return cell;
 }

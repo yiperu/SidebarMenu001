@@ -10,4 +10,6 @@
 
 @interface SideBarViewController : UITableViewController
 
+@property (nonatomic, strong) NSArray *menuItems;
+
 @end
