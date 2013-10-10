@@ -7,6 +7,7 @@
 //
 
 #import "PhotoViewController.h"
+#import "SWRevealViewController.h"
 
 @interface PhotoViewController ()
 
@@ -27,6 +28,17 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    
+    // Change button color
+    self.sidebarButton.tintColor = [UIColor colorWithWhite:0.96f alpha:0.2f];
+    
+    // Set the side bar button action. When it's tapped, it'll show up the sidebar.
+    self.sidebarButton.target = self.revealViewController;
+    self.sidebarButton.action = @selector(revealToggle:);
+    
+    // Set the gesture
+    [self.view addGestureRecognizer:self.revealViewController.panGestureRecognizer];
+    
 }
 
 - (void)didReceiveMemoryWarning

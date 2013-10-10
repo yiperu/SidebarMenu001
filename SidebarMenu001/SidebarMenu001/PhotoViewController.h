@@ -10,4 +10,6 @@
 
 @interface PhotoViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UIBarButtonItem *sidebarButton;
+
 @end
